@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textViewDevinez"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:text="@string/Devinez"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="1dp"
+        android:text="@string/score"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/textViewScore"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="360dp"
+        android:text="@string/str_0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/buttonOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/str_ok" />
+
+    <ProgressBar
+        android:id="@+id/progressBarTentatives"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="288dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:id="@+id/textViewTentatives"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="100dp"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/textViewIndication"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progressBarTentatives"
+        android:layout_alignParentStart="true"
+        android:text="@string/str_3pts" />
+
+    <ListView
+        android:id="@+id/listViewHistorique"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_below="@+id/textViewIndication" />
+
+
+</RelativeLayout>

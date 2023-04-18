@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyQuizApplication</string>
+    <string name="Devinez">Devinez</string>
+    <string name="score">Score :</string>
+    <string name="str_0">0</string>
+    <string name="str_ok">OK</string>
+    <string name="str_3pts">...</string>
+    <string name="valeur_sup">valeur supérieure</string>
+    <string name="valeur_inf">valeur inférieure</string>
+    <string name="bravo">Bravo</string>
+
+
+
+</resources>
